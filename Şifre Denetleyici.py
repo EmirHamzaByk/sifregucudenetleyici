@@ -13,12 +13,7 @@ def check_password_strength(password):
         return "Orta. Lütfen özel karakterleri içeren bir şifre kullanın veya rakamlar ekleyin."
     else:
         return "Güçlü"
-banner = """       
-**************************************
-*************EmirhamzaByk*************
-************************************** 
-"""
-print(banner)
+
 
 while True:
     password = input("Lütfen şifrenizi giriniz (kapatmak için 'kapat'): ")
